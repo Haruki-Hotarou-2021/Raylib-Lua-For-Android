@@ -6,7 +6,7 @@ This is a simple Android application written in C that displays **"Hello, world!
 
 ## Getting Started
 > [!TIP]
-> This workflow uses Gradle. For a CMake-only workflow, which offers greater flexibility, see [this](https://github.com/OussamaTeyib/HelloWorld/tree/v1.0.x).
+> This workflow uses Gradle. For a CMake-only workflow, which offers greater flexibility, see [this](https://github.com/Haruki-Hotarou-2021/Raylib-Lua-For-Android/tree/v1.0.x).
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ If you want to use your own signing key for release builds, set the following en
 
    - Clone the repository and automatically initialize and update all submodules:
      ```
-     git clone --recurse-submodules https://github.com/OussamaTeyib/HelloWorld.git
+     git clone --recurse-submodules https://github.com/Haruki-Hotarou-2021/Raylib-Lua-For-Android.git
      ```
 
 2. **Using Android Studio**
