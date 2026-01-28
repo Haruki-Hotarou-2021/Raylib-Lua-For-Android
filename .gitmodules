@@ -1,4 +1,3 @@
-[submodule "app/src/main/c/raylib-lua"]
+[submodule "raylib-lua"]
 	path = app/src/main/c/raylib-lua
 	url = https://github.com/TSnake41/raylib-lua
-	branch = master
