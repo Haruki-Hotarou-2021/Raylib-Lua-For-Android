@@ -1,0 +1,30 @@
+# Gradle files
+.gradle/
+[Bb]uild*/
+.cxx/
+local.properties
+*.log
+
+# IDE files
+.idea/
+
+# C build artifacts
+*.o
+*.a
+*.so
+*.sym
+*.dbg
+
+# Java build artifacts
+*.class
+*.dex
+
+# Android build artifacts
+*.flat
+*.zip
+*.ap_
+*.apk
+*.idsig
+*.aab
+*.apks
+*.json
