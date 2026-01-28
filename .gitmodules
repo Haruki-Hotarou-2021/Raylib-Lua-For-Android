@@ -1,4 +1,4 @@
 [submodule "app/src/main/c/raylib"]
 	path = app/src/main/c/raylib
-	url = https://github.com/Haruki-Hotarou-2021/raylib-lua.git
+	url = https://github.com/Haruki-Hotarou-2021/raylib-lua
 	branch = master
