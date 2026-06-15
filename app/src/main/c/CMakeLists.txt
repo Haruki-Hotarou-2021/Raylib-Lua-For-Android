@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 4.0.2)
 # Define project name and programming language
 project(${APP_LIB_NAME} LANGUAGES C)
 
-# Import raylib
+# Import raylib-lua (which contains raylib with lua bindings)
 add_subdirectory("raylib")
 
 # Source directory
@@ -25,5 +25,5 @@ target_include_directories(${APP_LIB_NAME} PRIVATE "${SOURCE_DIR}")
 # Force inclusion of ANativeActivity_onCreate, expected by NativeActivity
 target_link_options(${APP_LIB_NAME} PRIVATE -u ANativeActivity_onCreate)
 
-# Link against essential Android libraries and raylib
+# Link against essential Android libraries and raylib-lua
 target_link_libraries(${APP_LIB_NAME} PRIVATE c m android log EGL GLESv2 OpenSLES raylib)
