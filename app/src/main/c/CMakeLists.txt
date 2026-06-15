@@ -26,4 +26,4 @@ target_include_directories(${APP_LIB_NAME} PRIVATE "${SOURCE_DIR}")
 target_link_options(${APP_LIB_NAME} PRIVATE -u ANativeActivity_onCreate)
 
 # Link against essential Android libraries and raylib-lua
-target_link_libraries(${APP_LIB_NAME} PRIVATE c m android log EGL GLESv2 OpenSLES raylib)
+target_link_libraries(${APP_LIB_NAME} PRIVATE c m android log EGL GLESv2 OpenSLES raylib-lua)
