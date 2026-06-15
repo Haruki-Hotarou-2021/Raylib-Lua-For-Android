@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 4.0.2)
 project(${APP_LIB_NAME} LANGUAGES C)
 
 # Import raylib-lua (which contains raylib with lua bindings)
-add_subdirectory("raylib")
+add_subdirectory("raylib-lua")
 
 # Source directory
 set(SOURCE_DIR "${CMAKE_SOURCE_DIR}")
@@ -14,7 +14,7 @@ set(SOURCE_DIR "${CMAKE_SOURCE_DIR}")
 file(GLOB_RECURSE SOURCE_FILES CONFIGURE_DEPENDS "${SOURCE_DIR}/*.c")
 
 # Exclude files under raylib directory
-list(FILTER SOURCE_FILES EXCLUDE REGEX ".*/raylib/.*")
+list(FILTER SOURCE_FILES EXCLUDE REGEX ".*/raylib-lua/.*")
 
 # Compile source files into a shared library
 add_library(${APP_LIB_NAME} SHARED ${SOURCE_FILES})
